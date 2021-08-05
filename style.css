@@ -1,0 +1,65 @@
+/* Basic css start */
+body {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+/* Basic css end */
+
+/* main css start */
+
+/* overlay css start */
+.item {
+	position: relative;
+}
+.item::after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+/* overlay css end */
+
+/* slider text css start */
+.slider {
+	position: relative;
+}
+.slider-text {
+	position: absolute;
+	color: #ffffff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/* slider-text css end */
+
+/* slider-text h2 css start */
+.slider-text h2 {
+	color: #ecf0f1;
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	font-weight: 600;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+/* slider-text h2 css end */
+
+/* slider-text p css start */
+.slider-text p {
+	color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+/* slider-text p css end */
+
+/* main css end */
