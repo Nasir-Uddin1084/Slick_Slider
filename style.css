@@ -72,9 +72,10 @@ ul {
 	font-weight: 400;
 }
 /* slider-text p css end */
-
 /* Slider(1) css end */
+
 /* Slider(2) css start */
+
 /* slider-01 css start */
 .slider-01 {
 	position: relative;
@@ -154,4 +155,75 @@ ul {
 	font-weight: 500;
 	line-height: 30px;
 }
-/* Slider(2) css end */
+/* Slider-03 css end */
+
+/* slider(04) css start */
+.slide4 {
+	position: relative;
+}
+.slide-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.slide-text h2 {
+	position: relative;
+	color: rgb(218, 26, 224);
+	font-family: 'Merienda', cursive;
+	font-weight: 700;
+	font-size: 36px;
+	padding-bottom: 10px;
+}
+.slide-text h2::after {
+	position: absolute;
+	content: '';
+	width: 150px;
+	height: 2px;
+	background: rgb(173, 19, 19);
+	left: 50%;
+	top: 50px;
+	transform: translate(-50%, -50%);
+}
+.slide-text p {
+	color: rgb(206, 187, 22);
+	font-family: 'Pacifico', cursive;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+.left-arrow {
+	position: absolute;
+	z-index: 100;
+	color: #000;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	top: 50%;
+	left: 20px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 10%;
+	background-color: #fff;
+}
+.right-arrow {
+	position: absolute;
+	z-index: 100;
+	color: #000;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	top: 50%;
+	right: 20px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 10%;
+	background-color: #fff;
+}
+/* slider(04) css end */
+
+
+

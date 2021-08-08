@@ -19,10 +19,10 @@ $(document).ready(function () {
 		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
+		Speed: 2500,
 		autoplay: true,
-		autoplaySpeed: 1500,
 		dots: false,
-		cssEase: false,
+		cssEase: true,
 		arrows: false,
 	});
 	// slider2 js end
@@ -36,4 +36,19 @@ $(document).ready(function () {
 		arrows: false,
 	});
 	// slider3 js end
+	// slider4 js start
+	$('.slide4').slick({
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: true,
+		autoplay: false,
+		// autoplaySpeed: 1500,
+		fade: true,
+		// speed: 1500,
+		cssEase: true,
+		prevArrow: '.left-arrow',
+		nextArrow: '.right-arrow',
+	});
+	// slider4 js end
 });
