@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	// slider1
+	// slider1 js start
 	$('.slider1').slick({
 		infinite: true,
 		slidesToShow: 1,
@@ -13,7 +13,8 @@ $(document).ready(function () {
 		dots: false,
 		arrows: false,
 	});
-	// slider2
+	// slider1 js end
+	// slider2 js start
 	$('.slider').slick({
 		infinite: true,
 		slidesToShow: 1,
@@ -24,4 +25,15 @@ $(document).ready(function () {
 		cssEase: false,
 		arrows: false,
 	});
+	// slider2 js end
+	// slider3 js start
+	$('.slider3').slick({
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 1500,
+		arrows: false,
+	});
+	// slider3 js end
 });
