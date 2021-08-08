@@ -95,7 +95,7 @@ ul {
 	padding-bottom: 5px;
 }
 .slider01-text p {
-	color: #1DF113;
+	color: #1df113;
 	font-family: 'STIX Two Text', serif;
 	font-size: 20px;
 	font-weight: 500;
@@ -142,7 +142,7 @@ ul {
 	text-align: center;
 }
 .slider03-text h2 {
-	color: #D40D28;
+	color: #d40d28;
 	font-family: 'Playfair Display', serif;
 	font-size: 36px;
 	font-weight: 700;
@@ -157,7 +157,7 @@ ul {
 }
 /* Slider-03 css end */
 
-/* slider(04) css start */
+/* slider with arrows css start */
 .slide4 {
 	position: relative;
 }
@@ -223,7 +223,66 @@ ul {
 	border-radius: 10%;
 	background-color: #fff;
 }
-/* slider(04) css end */
-
-
-
+/* slider with arrows css end */
+/* slider with dots css end */
+.slide {
+	position: relative;
+}
+.slide-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.slide-text h2 {
+	color: #000;
+	font-family: 'Hahmlet', serif;
+	font-size: 36px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.slide-text p {
+	color: #24a2f7;
+	font-family: 'Hahmlet', serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 27px;
+}
+.slick-dots {
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 20px;
+}
+.slick-dots li {
+	display: inline-block;
+	margin-right: 10px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	border-radius: 50%;
+	background: black;
+}
+.slick-dots li button {
+	color: transparent;
+	width: 15px;
+	height: 15px;
+	line-height: 16px;
+	border-radius: 50%;
+	background: #fff;
+	border: none;
+	opacity: 0;
+	transition: 0.5s all ease;
+	cursor: pointer;
+}
+.slick-dots li.slick-active button {
+	opacity: 1;
+}
+button:focus {
+	/* button size fixing */
+	outline: 0px dotted;
+}
+/* slider with dots css end */

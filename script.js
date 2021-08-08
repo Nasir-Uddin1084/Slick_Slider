@@ -51,4 +51,17 @@ $(document).ready(function () {
 		nextArrow: '.right-arrow',
 	});
 	// slider4 js end
+	// slider with dots js start
+	$('.slide').slick({
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: true,
+		Speed: true,
+		dots: true,
+		autoplay: true,
+		autoplaySpeed: 1500,
+	});
+	// slider with dots js end
 });
